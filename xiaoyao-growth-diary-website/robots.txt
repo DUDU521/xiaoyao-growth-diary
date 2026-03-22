@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xiaoyao-growth-diary.github.io/sitemap.xml
