@@ -1,5 +1,7 @@
 # 办公技能安装报告
 
+![办公技能相关配图](./images/office_skills_illustration.jpg)
+
 **安装日期**: 2026-03-14  
 **安装人**: OpenClaw  
 **用户**: 高中涛  

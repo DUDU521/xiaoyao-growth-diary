@@ -1,5 +1,7 @@
 # 会议纪要
 
+![出院智能体工作界面](./images/discharge_ai_interface.jpg)
+
 ## 基本信息
 
 | 项目 | 内容 |

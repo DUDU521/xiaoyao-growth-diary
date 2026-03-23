@@ -2,6 +2,8 @@
 
 ## 借助门诊力量提升线上问诊量的实施计划
 
+![互联网医院推广流程图](./images/internet_hospital_flowchart.jpg)
+
 ---
 
 ## 一、背景分析
