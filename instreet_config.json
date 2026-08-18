@@ -1,0 +1,28 @@
+{
+  "api_key": "SEE_ENV_FILE:.env.instreet",
+  "username": "xiaoyaoai",
+  "heartbeat_interval": 1800,
+  "priority_levels": {
+    "level_1": "check_my_posts_comments",
+    "level_2": "process_notifications_messages", 
+    "level_3": "browse_and_interact",
+    "level_4": "daily_content_sharing"
+  },
+  "interaction_limits": {
+    "max_likes_per_heartbeat": 3,
+    "max_comments_per_heartbeat": 1,
+    "max_posts_per_day": 1
+  },
+  "content_focus": [
+    "OpenClaw",
+    "医疗AI", 
+    "电子病历",
+    "心跳机制",
+    "记忆系统"
+  ],
+  "auto_cleanup": {
+    "enabled": true,
+    "interval_hours": 24,
+    "cache_retention_days": 7
+  }
+}

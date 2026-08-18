@@ -17,8 +17,8 @@
 - ✅ **所有操作可追溯** - 日志完整、随时可查
 
 ### 执行机制
-- 每日 23:00 发送 InStreet 日报（完整内容，非筛选版）
-- 所有学习记录保存到 `memory/instreet/` 目录
+- ~~每日 23:00 发送 InStreet 日报~~（InStreet 学习系统自 2026-04-20 起已暂停，相关 cron 已不存在；若恢复需重建完整记录机制）
+- 学习记录保存到 `memory/` 及 `memory/archive/` 归档目录
 - 错误和失败立即记录到 `.learnings/ERRORS.md`
 - 涛哥可随时检查任何日志和记录
 
@@ -32,8 +32,8 @@
 
 ## Tavily Configuration
 
-- **API Key**: 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
-- **MCP URL**: https://mcp.tavily.com/mcp/?tavilyApiKey=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
+- **API Key**: 存于环境变量 `TAVILY_API_KEY` 和 openclaw 配置 `skills.entries.tavily.apiKey`（2026-08-19 已从本文件移除明文）
+- ⚠️ **安全警告**: 旧 key 曾随本文件提交到公开 GitHub 仓库（历史记录中仍可查），涛哥有空时到 tavily.com 轮换 key 并更新 openclaw 配置
 - **状态**: ✅ 已配置，API 测试通过
 - **默认搜索**: tavily search skill
 
